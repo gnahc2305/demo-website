@@ -17,18 +17,14 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} ${styles.flexCenter} mx-auto flex-col`}
     >
-      <TypingText title="| About Metaversus |" textStyles="text-center" />
+      <TypingText title="| About Section |" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        Metaverse is a new thing in the future, where you can enjoy the virtual
-        world by feeling like it's really real, you can feel what you feel in
-        this metaverse world, because this is really the madness of the
-        metaverse of today, using only VR devices you can easily explore the
-        metaverse world you want, turn your dreams into reality. Let's explore
-        the madness of the metaverse by scrolling down
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, reiciendis deserunt! Accusamus iure rerum enim vitae odio obcaecati facilis possimus expedita libero illo consequatur beatae, officiis amet veritatis nesciunt vel.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nobis, quod veritatis incidunt officiis, excepturi ab optio qui tempore assumenda voluptatibus inventore dignissimos dolor hic aliquid quos, sapiente perferendis dolorum!
       </motion.p>
 
       <motion.img

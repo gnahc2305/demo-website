@@ -20,13 +20,13 @@ const Explore = () => {
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| The World" textStyles="text-center" />
+      <TypingText title="| Subtitle" textStyles="text-center" />
       <TitleText
         title={
           <>
-            Choose The world you want
-            <br className="md:block hidden" />
-            to explore
+            Your Title
+            {/* <br className="md:block hidden" /> */}
+            {/* Title */}
           </>
         }
         textStyles="text-center"
